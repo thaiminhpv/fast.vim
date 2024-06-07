@@ -1,5 +1,42 @@
 # Fast.vim
 
+## Installation
+
+### VSCode
+
+1. Press `Ctrl + P` to open the quick open dialog, type `ext install vscodevim.vim` and press enter.
+2. Press `Ctrl + Shift + P` to open the command palette, type `Preferences: Open User Settings (JSON)` and press enter.
+3. Add the [following settings](./settings.json) to the JSON file:
+
+```json
+{
+  "vim.vimrc.enable": true,
+  "vim.autoindent": true,
+  "vim.vimrc.path": "~/vscode.vim",
+  "vim.handleKeys": {
+      "<C-A>": false,
+      "<C-Y>": false,
+      "<C-O>": false,
+      "<C-I>": false
+  },
+  "editor.lineNumbers": "relative",
+  "notebook.lineNumbers": "on"
+}
+```
+
+4. Copy the [vscode.vim](./vscode.vim) file to `~/vscode.vim` for Linux or `%USERPROFILE%\vscode.vim` for Windows.
+
+Done!
+
+### IntelliJ (JetBrains Products)
+
+1. Install the IdeaVim plugin.
+2. Copy the [.ideavimrc](./ideavimrc) file to `~/.ideavimrc` for Linux or `%USERPROFILE%\.ideavimrc` for Windows.
+
+Done!
+
+## FAQs
+
 ### How to fix `Ctrl + P` not working in Visual Studio Code
 
 1. Press `Ctrl + Shift + P` to open the command palette.
