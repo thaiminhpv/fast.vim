@@ -1,0 +1,13 @@
+{
+  "vim.vimrc.enable": true,
+  "vim.autoindent": true,
+  "vim.vimrc.path": "~/.config/nvim/vscode.vim",
+  "vim.handleKeys": {
+      "<C-A>": false,
+      "<C-Y>": false,
+      "<C-O>": false,
+      "<C-I>": false
+  },
+  "editor.lineNumbers": "relative",
+  "notebook.lineNumbers": "on"
+}
