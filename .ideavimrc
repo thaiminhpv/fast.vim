@@ -4,6 +4,7 @@ set number
 set relativenumber
 set surround
 set ideajoin
+set showmode
 
 nnoremap cb <Left>/(\\\|)<CR>"_cib
 nnoremap ch <Left>/(\\\|)<CR>"_cib
@@ -25,39 +26,6 @@ vnoremap ud <C-C><Left>/\[\\\|\]<CR>vi[
 vnoremap u" <C-C><Left>/"<CR>vi"
 vnoremap ul <C-C><Left>/"<CR>vi"
 vnoremap u' <C-C><Left>/'<CR>vi'
-
-" ========================================================
-set showmode
-
-let mapleader=" "
-
-" Refactor
-map <leader>r <Action>(RenameElement)
-map <leader>s <Action>(SurroundWith)
-map <leader>v <Action>(IntroduceVariable)
-map <leader>m <Action>(ExtractMethod)
-map <leader>f <Action>(IntroduceField)
-map <leader>p <Action>(IntroduceParameter)
-map <leader>n <Action>(Inline)
-map <leader>g <Action>(ChangeSignature)
-map <leader>z <Action>(Move)
-
-map <leader>ja <Action>(NotebookInsertCellAboveAction)
-map <leader>jb <Action>(NotebookInsertCellBelowAction)
-map <leader>jd <Action>(NotebookDeleteCellAction)
-map <leader>jm <Action>(NotebookInsertMarkdownCellBelowAction)
-map <leader>jr <Action>(JupyterRestartKernelAction)
-map <leader>jl <Action>(JupyterClearCellOutputAction)
-
-map <leader>co <Action>(ExtractParametersObject)
-map <leader>cu <Action>(ExtractSuperclass)
-map <leader>cl <Action>(PullMembersUp)
-map <leader>cd <Action>(PushMembersDown)
-
-map <leader>e <Action>(SelectInProjectView)
-map <leader>b <Action>(ToggleLineBreakpoint)
-map <leader>a <Action>(Annotate)
-
 
 " =========================== keymap.vim =============================
 map <C-S> :w<CR>
