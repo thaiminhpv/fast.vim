@@ -33,7 +33,7 @@ Done!
 
 </details>
 
-<details>
+<details open>
   <summary><h3>IntelliJ (JetBrains Products)</h3></summary>
 
 1. Install the IdeaVim plugin.
