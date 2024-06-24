@@ -66,3 +66,7 @@ you should already know what to do after looking at [neo.vim](./neo.vim).
         "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
     },
     ```
+
+### Related links
+
+- Blog guide: [How To Code 10 times faster with VimFast](https://viblo.asia/p/code-nhanh-hon-10-lan-voi-vimfast-GyZJZj7ZJjm)
