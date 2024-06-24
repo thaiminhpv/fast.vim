@@ -7,7 +7,7 @@
   - [How to use](#how-to-use)
   - [FAQs](#faqs)
     - [How to fix `Ctrl + P` not working in Visual Studio Code](#how-to-fix-ctrl--p-not-working-in-visual-studio-code)
-    - [Related links](#related-links)
+  - [Related links](#related-links)
 
 ## Installation
 
@@ -88,6 +88,6 @@ you should already know what to do after looking at [neo.vim](./neo.vim).
     },
     ```
 
-### Related links
+## Related links
 
 - Blog guide: [How To Code 10 times faster with VimFast](https://viblo.asia/p/code-nhanh-hon-10-lan-voi-vimfast-GyZJZj7ZJjm)
