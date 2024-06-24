@@ -37,7 +37,7 @@ Done!
   <summary><h3>IntelliJ (JetBrains Products)</h3></summary>
 
 1. Install the IdeaVim plugin.
-2. Copy the [.ideavimrc](./ideavimrc) file to `~/.ideavimrc` for Linux or `%USERPROFILE%\.ideavimrc` for Windows.
+2. Copy the [.ideavimrc](./.ideavimrc) file to `~/.ideavimrc` for Linux or `%USERPROFILE%\.ideavimrc` for Windows.
 
 Done!
 
