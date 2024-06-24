@@ -2,6 +2,13 @@
 
 ![demo-gif](https://raw.githubusercontent.com/thaiminhpv/blogs/main/How-To-Code-30-times-faster-with-vimfast/resources/gif-guides/vimfast.gif)
 
+- [Fast.vim](#fastvim)
+  - [Installation](#installation)
+  - [How to use](#how-to-use)
+  - [FAQs](#faqs)
+    - [How to fix `Ctrl + P` not working in Visual Studio Code](#how-to-fix-ctrl--p-not-working-in-visual-studio-code)
+    - [Related links](#related-links)
+
 ## Installation
 
 <details open>
@@ -50,6 +57,20 @@ If you are reading this part, that means you are already a Vim user, so
 you should already know what to do after looking at [neo.vim](./neo.vim).
 
 </details>
+
+## How to use
+
+1. Use `Ctrl + D`, `Ctrl + U` to scroll up and down, use `Ctrl + P` to navigate between files.
+2. After your needed edit lines comes within your screen view, use `<number> + j/k` to move the cursor to the line you want.
+3. Use either:
+   - `cw` to change a **word**
+   - `c"`, `cl` to change a **"double quoted string"**
+   - `c'` to change a **"single quoted string"**
+   - `cb`, `ch` to change a **()** block
+   - `cd` to change a **[]** block
+   - `cq`, `cB`, `cv` to change a **{}** block
+
+   For more detailed, see configuration at [vscode.vim#Line1->10](https://github.com/thaiminhpv/fast.vim/blob/8aa781a83c2ddb4a47bee80dc69617c57d2e047a/vscode.vim#L1-L10)
 
 ## FAQs
 
