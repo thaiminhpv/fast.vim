@@ -1,13 +1,15 @@
-# Fast.vim
+<h2 align="center">fast.vim</h2>
+<p align="center">A cross-platform keybinding that x10 your coding speed</p>
 
-![demo-gif](https://raw.githubusercontent.com/thaiminhpv/blogs/main/How-To-Code-30-times-faster-with-vimfast/resources/gif-guides/vimfast.gif)
+<p align="center">
+<img alt="vimfast" src="https://raw.githubusercontent.com/thaiminhpv/blogs/main/How-To-Code-30-times-faster-with-vimfast/resources/gif-guides/vimfast.gif"/>
+</p>
 
-- [Fast.vim](#fastvim)
-  - [Installation](#installation)
-  - [How to use](#how-to-use)
-  - [FAQs](#faqs)
-    - [How to fix `Ctrl + P` not working in Visual Studio Code](#how-to-fix-ctrl--p-not-working-in-visual-studio-code)
-  - [Related links](#related-links)
+- [Installation](#installation)
+- [How to use](#how-to-use)
+- [FAQs](#faqs)
+  - [How to fix `Ctrl + P` not working in Visual Studio Code](#how-to-fix-ctrl--p-not-working-in-visual-studio-code)
+- [Related links](#related-links)
 
 ## Installation
 
