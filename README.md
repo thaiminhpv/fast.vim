@@ -93,3 +93,4 @@ you should already know what to do after looking at [neo.vim](./neo.vim).
 ## Related links
 
 - Blog guide: [How To Code 10 times faster with VimFast](https://viblo.asia/p/code-nhanh-hon-10-lan-voi-vimfast-GyZJZj7ZJjm)
+- Slide: [Presentation](https://docs.google.com/presentation/d/19igSXmitilryQK-UNCaznCEfXaGaUSZY/edit?usp=sharing&ouid=106107220431122775778&rtpof=true&sd=true)
